@@ -2,19 +2,6 @@ package com.meilisearch.sdk;
 
 import com.google.gson.Gson;
 
-/** The name and count of the update status type */
-class StatusType {
-    String name = "";
-    int number = 0;
-}
-
-/** The code, type and error of the update status error */
-class Error {
-    String code = "";
-    String type = "";
-    String link = "";
-}
-
 /** MeiliSearch response for an Update Status */
 public class UpdateStatus {
     protected String status = "";
